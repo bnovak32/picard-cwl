@@ -1,0 +1,6 @@
+FROM amazoncorretto:17-alpine
+
+RUN apk add bash
+COPY src/collate.sh /usr/local/bin/
+COPY src/transpose.awk /usr/local/bin/
+
