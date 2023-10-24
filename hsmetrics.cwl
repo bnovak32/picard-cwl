@@ -16,7 +16,7 @@ baseCommand: [ picard, CollectHsMetrics ]
 
 arguments:
   - prefix: --OUTPUT
-    valueFrom: $(inputs.alignments.nameroot).hs_metrics.txt
+    valueFrom: $(inputs.alignments.nameroot).hsmetrics.txt
 
 inputs:
   alignments:
